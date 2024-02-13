@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white
+}
+
+.ball {
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color:cornsilk;
+    margin:0;
+}

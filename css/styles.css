@@ -17,6 +17,7 @@ h1 {
     color:cornsilk;
     margin: 0 auto;
     font-weight: bold;
+    transition: 1s;
 }
 
 .main-container {

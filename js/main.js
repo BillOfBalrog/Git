@@ -1,12 +1,11 @@
 'use strict'
 
 function onBallClick(elBall) {
-    const currWidth = elBall.offsetWidth
-    const currHeight = elBall.offsetHeight
+    const currSize = elBall.offsetWidth
+    if (currSize === 400) currSize = 50                
     
-    const newHeight = currHeight + 50
-    const newWidth = currWidth + 50
+    const newSize = currSize + 50
 
-    elBall.style.height = newHeight + 'px'
-    elBall.style.width = newWidth + 'px'
+    elBall.style.height = newSize + 'px'
+    elBall.style.width = newSize + 'px'
 }                                                                
